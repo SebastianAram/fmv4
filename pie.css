@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .block {
+    margin: 0 0 25px;
+  }
+
+  .donut-chart-block, .line-chart-block, .bar-chart-block {
+    width: 30%; /* O el tamaño que prefieras */
+    margin: 0 1.5%; /* Ajuste de márgenes entre bloques */
+  }
+
+  .titular {
+    text-align: center;
+  }
+  
+  .menuitem {
+    text-align: center; /* Alinea el botón al centro */
+    margin-top: 20px; /* Ajusta el margen superior según sea necesario */
+  }
+  
+  .menuitem button {
+    font-size: 16px; /* Tamaño del texto del botón */
+  }
